@@ -7,7 +7,6 @@
     "heroku-postbuild": "knex migrate:rollback; knex migrate:latest; knex seed:run;",
     "knex": "knex",
     "lint": "eslint  --ignore-pattern public/js/vendor",
-    "nf": "nf start",
     "start": "node ./bin/www",
     "test": "mocha",
     "nodemon": "node server.js"
